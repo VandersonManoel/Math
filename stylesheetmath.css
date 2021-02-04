@@ -1,0 +1,75 @@
+.body{
+	display: flex;
+	flex-direction: column;
+}
+.topo{
+    display: flex;
+	flex-direction: column;
+	width: auto;
+	height: 18%;
+	background-color: #ffffff;
+	align-items: center;
+}
+.menu{
+ 	display: flex;
+	flex-direction: row;
+	width: auto;
+	height: 9%;
+	background-color: #373d47;
+}
+.menusec{
+	display: flex;
+	flex-direction: row;
+	width: 30%;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 2.3rem;
+	font-family: 'Courier Prime', monospace;
+	margin-left: 1%;
+	
+}
+.logo{
+	margin-top: 16%;
+	
+}
+.base{
+	display: flex;
+	flex-direction: row;
+	width: auto;
+	height: 73%;
+	background-color: #c8d3e6;	
+}
+a:link{
+	color: #ffffff;
+	text-decoration: none;
+}
+a:visited{
+	color: #ffffff;
+}
+a:hover{
+	color: black;
+}
+.links{
+	background-color: #ffffff;
+	width: 20%;
+	height: 80%;
+	border-style: solid;
+	border-color: black;
+	border-width: 0.3rem;
+	margin-left: 10%;
+	margin-top: 2%;
+	font-size: 3rem;
+	text-align: center;
+}
+.assuntos{
+	background-color: #ffffff;
+	width: 50%;
+	height: 80%;
+	border-style: solid;
+	border-color: black;
+	border-width: 0.3rem;
+	margin-left: 18%;
+	margin-top: 2%;
+	font-size: 3rem;
+	text-align: center;
+}
